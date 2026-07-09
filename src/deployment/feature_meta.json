@@ -1,0 +1,374 @@
+{
+  "features": [
+    "item_id",
+    "dept_id",
+    "cat_id",
+    "store_id",
+    "state_id",
+    "day_number",
+    "event_name",
+    "event_type",
+    "snap_CA",
+    "snap_TX",
+    "snap_WI",
+    "sell_price",
+    "year",
+    "month",
+    "week",
+    "day",
+    "quarter",
+    "is_weekend",
+    "is_month_start",
+    "is_month_end",
+    "lag_7",
+    "lag_28",
+    "rolling_mean_7",
+    "rolling_mean_28",
+    "rolling_std_7",
+    "price_change",
+    "price_rolling_mean_4w",
+    "price_relative_to_store"
+  ],
+  "cat_features": [
+    "item_id",
+    "dept_id",
+    "cat_id",
+    "store_id",
+    "state_id",
+    "event_name",
+    "event_type"
+  ],
+  "meta": {
+    "item_id": {
+      "type": "categorical",
+      "categories": [
+        "FOODS_1_058",
+        "FOODS_1_059",
+        "FOODS_1_060",
+        "FOODS_1_061",
+        "FOODS_1_062",
+        "FOODS_1_063",
+        "FOODS_1_064",
+        "FOODS_1_065",
+        "FOODS_3_324",
+        "FOODS_3_325",
+        "FOODS_3_326",
+        "FOODS_3_327",
+        "FOODS_3_328",
+        "FOODS_3_329",
+        "FOODS_3_330",
+        "FOODS_3_331",
+        "FOODS_3_495",
+        "FOODS_3_496",
+        "FOODS_3_497",
+        "FOODS_3_498",
+        "FOODS_3_499",
+        "FOODS_3_500",
+        "FOODS_3_501",
+        "FOODS_3_502",
+        "FOODS_3_533",
+        "FOODS_3_534",
+        "FOODS_3_535",
+        "FOODS_3_536",
+        "FOODS_3_537",
+        "FOODS_3_538",
+        "FOODS_3_539",
+        "FOODS_3_540",
+        "FOODS_3_724",
+        "FOODS_3_725",
+        "FOODS_3_726",
+        "FOODS_3_727",
+        "FOODS_3_729",
+        "FOODS_3_730",
+        "FOODS_3_731",
+        "FOODS_3_732",
+        "HOBBIES_1_001",
+        "HOBBIES_1_002",
+        "HOBBIES_1_003",
+        "HOBBIES_1_004",
+        "HOBBIES_1_005",
+        "HOBBIES_1_006",
+        "HOBBIES_1_007",
+        "HOBBIES_2_028",
+        "HOBBIES_2_029",
+        "HOBBIES_2_030",
+        "HOBBIES_2_031",
+        "HOBBIES_2_032",
+        "HOBBIES_2_033",
+        "HOBBIES_2_034",
+        "HOUSEHOLD_1_045",
+        "HOUSEHOLD_1_046",
+        "HOUSEHOLD_1_047",
+        "HOUSEHOLD_1_048",
+        "HOUSEHOLD_1_049",
+        "HOUSEHOLD_1_050",
+        "HOUSEHOLD_1_051",
+        "HOUSEHOLD_1_052",
+        "HOUSEHOLD_1_407",
+        "HOUSEHOLD_1_408",
+        "HOUSEHOLD_1_409",
+        "HOUSEHOLD_1_410",
+        "HOUSEHOLD_1_411",
+        "HOUSEHOLD_1_412",
+        "HOUSEHOLD_1_413",
+        "HOUSEHOLD_2_100",
+        "HOUSEHOLD_2_101",
+        "HOUSEHOLD_2_102",
+        "HOUSEHOLD_2_103",
+        "HOUSEHOLD_2_104",
+        "HOUSEHOLD_2_105",
+        "HOUSEHOLD_2_106",
+        "HOUSEHOLD_2_113",
+        "HOUSEHOLD_2_114",
+        "HOUSEHOLD_2_115",
+        "HOUSEHOLD_2_116",
+        "HOUSEHOLD_2_117",
+        "HOUSEHOLD_2_118",
+        "HOUSEHOLD_2_119",
+        "HOUSEHOLD_2_278",
+        "HOUSEHOLD_2_279",
+        "HOUSEHOLD_2_280",
+        "HOUSEHOLD_2_281",
+        "HOUSEHOLD_2_282",
+        "HOUSEHOLD_2_283",
+        "HOUSEHOLD_2_284",
+        "HOUSEHOLD_2_285",
+        "HOUSEHOLD_2_456",
+        "HOUSEHOLD_2_457",
+        "HOUSEHOLD_2_458",
+        "HOUSEHOLD_2_459",
+        "HOUSEHOLD_2_460",
+        "HOUSEHOLD_2_461",
+        "HOUSEHOLD_2_462",
+        "HOUSEHOLD_2_481",
+        "HOUSEHOLD_2_482",
+        "HOUSEHOLD_2_483",
+        "HOUSEHOLD_2_484",
+        "HOUSEHOLD_2_485",
+        "HOUSEHOLD_2_486",
+        "HOUSEHOLD_2_487",
+        "HOUSEHOLD_2_488",
+        "HOUSEHOLD_2_489",
+        "HOUSEHOLD_2_490",
+        "HOUSEHOLD_2_491",
+        "HOUSEHOLD_2_492",
+        "HOUSEHOLD_2_493",
+        "HOUSEHOLD_2_494"
+      ]
+    },
+    "dept_id": {
+      "type": "categorical",
+      "categories": [
+        "FOODS_1",
+        "FOODS_3",
+        "HOBBIES_1",
+        "HOBBIES_2",
+        "HOUSEHOLD_1",
+        "HOUSEHOLD_2"
+      ]
+    },
+    "cat_id": {
+      "type": "categorical",
+      "categories": [
+        "FOODS",
+        "HOBBIES",
+        "HOUSEHOLD"
+      ]
+    },
+    "store_id": {
+      "type": "categorical",
+      "categories": [
+        "TX_2",
+        "TX_3",
+        "WI_1",
+        "WI_2",
+        "WI_3",
+        "CA_1",
+        "CA_2",
+        "CA_3",
+        "CA_4",
+        "TX_1"
+      ]
+    },
+    "state_id": {
+      "type": "categorical",
+      "categories": [
+        "TX",
+        "WI",
+        "CA"
+      ]
+    },
+    "day_number": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 1913.0,
+      "default": 959.0
+    },
+    "event_name": {
+      "type": "categorical",
+      "categories": [
+        "LentWeek2",
+        "No Event",
+        "StPatricksDay",
+        "Purim End",
+        "Easter",
+        "Pesach End",
+        "OrthodoxEaster",
+        "Cinco De Mayo",
+        "Mother's day",
+        "SuperBowl",
+        "ValentinesDay",
+        "PresidentsDay",
+        "LentStart",
+        "MemorialDay",
+        "NBAFinalsStart",
+        "NBAFinalsEnd",
+        "Father's day",
+        "IndependenceDay",
+        "Ramadan starts",
+        "Eid al-Fitr",
+        "LaborDay",
+        "ColumbusDay",
+        "Halloween",
+        "EidAlAdha",
+        "VeteransDay",
+        "Thanksgiving",
+        "Christmas",
+        "Chanukah End",
+        "NewYear",
+        "OrthodoxChristmas",
+        "MartinLutherKingDay"
+      ]
+    },
+    "event_type": {
+      "type": "categorical",
+      "categories": [
+        "Religious",
+        "No Event",
+        "Cultural",
+        "Sporting",
+        "National"
+      ]
+    },
+    "snap_CA": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0
+    },
+    "snap_TX": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0
+    },
+    "snap_WI": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0
+    },
+    "sell_price": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 19.969999313354492,
+      "default": 3.2799999713897705
+    },
+    "year": {
+      "type": "numeric",
+      "min": 2011.0,
+      "max": 2016.0,
+      "default": 2013.0
+    },
+    "month": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 12.0,
+      "default": 6.0
+    },
+    "week": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 53.0,
+      "default": 25.0
+    },
+    "day": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 31.0,
+      "default": 16.0
+    },
+    "quarter": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 4.0,
+      "default": 2.0
+    },
+    "is_weekend": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0
+    },
+    "is_month_start": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 1.0,
+      "default": 1.0
+    },
+    "is_month_end": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 1.0,
+      "default": 1.0
+    },
+    "lag_7": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 215.0,
+      "default": 0.0
+    },
+    "lag_28": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 215.0,
+      "default": 0.0
+    },
+    "rolling_mean_7": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 102.28571428571429,
+      "default": 0.2857142857142857
+    },
+    "rolling_mean_28": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 59.82142857142857,
+      "default": 0.2857142857142857
+    },
+    "rolling_std_7": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 86.12670621711665,
+      "default": 0.48795003647426594
+    },
+    "price_change": {
+      "type": "numeric",
+      "min": -12.180000305175781,
+      "max": 17.969999313354492,
+      "default": 0.0
+    },
+    "price_rolling_mean_4w": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 19.969999313354492,
+      "default": 3.2799999713897705
+    },
+    "price_relative_to_store": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 6.097245216369629,
+      "default": 0.960332989692688
+    }
+  }
+}
