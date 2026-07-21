@@ -195,5 +195,4 @@ Kaggle — [M5 Forecasting - Accuracy](https://www.kaggle.com/competitions/m5-fo
 ---
 
 ## Contact
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/theyoussefmoussa)
-[![X](https://img.shields.io/badge/X-follow-black?style=for-the-badge&logo=x)](https://x.com/theyosefmusa)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/jiya-arora-01b277257/)
