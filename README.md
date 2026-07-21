@@ -4,17 +4,7 @@
 
 ---
 
-## Team
-| Name | LinkedIn |
-|------|----------|
-| Youssef Moussa | [theyoussefmoussa](https://www.linkedin.com/in/theyoussefmoussa) |
-| Malak Abdallah | [malak-abdallah](https://www.linkedin.com/in/malak-abdallah/) |
-| Zyad Ashraf | [zyad-ashraff](https://www.linkedin.com/in/zyad-ashraff/) |
-| Hamza Ahmed | [hamzaahmedamin](https://www.linkedin.com/in/hamzaahmedamin/) |
-| Rahma Essam | [rahma-essam](https://www.linkedin.com/in/rahma-essam/) |
-| Sara Mostafa | [sara--mostafa](https://www.linkedin.com/in/sara--mostafa/) |
 
----
 
 ## Current Milestone — Modeling
 | Step | Status |
